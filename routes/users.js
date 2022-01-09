@@ -1,5 +1,5 @@
 const router = require('express').Router();
-let user = require('../models/users_model');
+let User = require('../models/users_model');
 
 router.route('/').get((req, res) => {
   User.find()
@@ -17,3 +17,5 @@ router.route('/add').post((req, res) => {
     .then(() => res.json('User added!'))
     .catch((err) => res.status(400).json('Error: ' + err));
 });
+
+module.exports = router;
