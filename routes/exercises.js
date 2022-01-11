@@ -97,5 +97,3 @@ module.exports = router;
 //     .then(() => res.json('Exercise updated'))
 //     .catch((err) => res.status(400).json('Error: ' + err));
 // });
-
-// module.exports = router;
