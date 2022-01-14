@@ -95,5 +95,5 @@ module.exports = router;
 
 //   Exercise.findByIdAndUpdate(req.params.id, exerciseUpdate)
 //     .then(() => res.json('Exercise updated'))
-//     .catch((err) => res.status(400).json('Error: ' +
+//     .catch((err) => res.status(400).json('Error: '
 // });
